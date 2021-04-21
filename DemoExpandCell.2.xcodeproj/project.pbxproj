@@ -14,6 +14,10 @@
 		669DD95A262ECB6300A67963 /* DemoExpandCell_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 669DD958262ECB6300A67963 /* DemoExpandCell_2.xcdatamodeld */; };
 		669DD95C262ECB6500A67963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669DD95B262ECB6500A67963 /* Assets.xcassets */; };
 		669DD95F262ECB6500A67963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669DD95D262ECB6500A67963 /* LaunchScreen.storyboard */; };
+		669DD993263026C500A67963 /* headSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DD991263026C500A67963 /* headSettingCell.swift */; };
+		669DD994263026C500A67963 /* headSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669DD992263026C500A67963 /* headSettingCell.xib */; };
+		669DD998263026EB00A67963 /* subSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DD996263026EB00A67963 /* subSettingCell.swift */; };
+		669DD999263026EB00A67963 /* subSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669DD997263026EB00A67963 /* subSettingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		669DD95B262ECB6500A67963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669DD95E262ECB6500A67963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		669DD960262ECB6500A67963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669DD991263026C500A67963 /* headSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headSettingCell.swift; sourceTree = "<group>"; };
+		669DD992263026C500A67963 /* headSettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headSettingCell.xib; sourceTree = "<group>"; };
+		669DD996263026EB00A67963 /* subSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subSettingCell.swift; sourceTree = "<group>"; };
+		669DD997263026EB00A67963 /* subSettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = subSettingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +74,20 @@
 				669DD95D262ECB6500A67963 /* LaunchScreen.storyboard */,
 				669DD960262ECB6500A67963 /* Info.plist */,
 				669DD958262ECB6300A67963 /* DemoExpandCell_2.xcdatamodeld */,
+				669DD99B263026F000A67963 /* CellSetting */,
 			);
 			path = DemoExpandCell.2;
+			sourceTree = "<group>";
+		};
+		669DD99B263026F000A67963 /* CellSetting */ = {
+			isa = PBXGroup;
+			children = (
+				669DD991263026C500A67963 /* headSettingCell.swift */,
+				669DD992263026C500A67963 /* headSettingCell.xib */,
+				669DD996263026EB00A67963 /* subSettingCell.swift */,
+				669DD997263026EB00A67963 /* subSettingCell.xib */,
+			);
+			path = CellSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669DD994263026C500A67963 /* headSettingCell.xib in Resources */,
 				669DD95F262ECB6500A67963 /* LaunchScreen.storyboard in Resources */,
 				669DD95C262ECB6500A67963 /* Assets.xcassets in Resources */,
+				669DD999263026EB00A67963 /* subSettingCell.xib in Resources */,
 				669DD957262ECB6300A67963 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				669DD954262ECB6300A67963 /* ViewController.swift in Sources */,
+				669DD993263026C500A67963 /* headSettingCell.swift in Sources */,
 				669DD950262ECB6300A67963 /* AppDelegate.swift in Sources */,
 				669DD952262ECB6300A67963 /* SceneDelegate.swift in Sources */,
 				669DD95A262ECB6300A67963 /* DemoExpandCell_2.xcdatamodeld in Sources */,
+				669DD998263026EB00A67963 /* subSettingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
